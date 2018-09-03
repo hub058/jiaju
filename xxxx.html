@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>家居网</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/xxxx.css">
+</head>
+<body>
+<!--Logo-->
+<div style="width: 100%;height: 174px;background-color: #F2F4F8;">
+    <div class="logo">
+        <img style="float: left" src="furnimg/home/home-logo.png">
+
+        <div style="float: left;margin-top: 40px;margin-left: 45px">
+            <p style="color: #333333; font-size: 29px;letter-spacing: 5px">中国钢制家具领导品牌</p>
+
+            <p style="color: #777777;letter-spacing: 3px;font-size: 16px">全国销售网络，全球<span style="color: #DA251D;font-weight: 600">150万</span>用户口碑保障</p>
+        </div>
+        <div style="float: right;margin-top: 33px;font-size: 15px;text-align: right;">
+            <p class="logo-zt">中国驰名商标</p>
+
+            <p class="logo-zt">国际一线品牌长期供应商</p>
+
+            <p class="logo-zt">注册资金1.006亿 日产钢柜千余件</p>
+
+            <p style="color: #777777;font-size: 26px;font-weight: 600;"><span style="color: #DA251D;">400</span>-6668-369</p>
+        </div>
+    </div>
+</div>
+<!--导航条-->
+<div style="width: 100%;height: 56px;background-color: #313131">
+    <div class="dht">
+        <a href="home.html">首页</a>
+        <a href="case.html">客户案例</a>
+        <a href="news.html">企业新闻</a>
+        <a href="">了解花都</a>
+    </div>
+</div>
+<!--轮播-->
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="furnimg/home/lb.jpg">
+        </div>
+        <div class="item">
+            <img src="furnimg/home/lb1.jpg">
+        </div>
+        <div class="item">
+            <img src="furnimg/home/lb2.jpg">
+        </div>
+        <div class="item">
+            <img src="furnimg/home/lb3.jpg">
+        </div>
+    </div>
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+</div>
+<!--商品详细信息-->
+<div class="fl">
+    <a href="home.html">明才首页</a>
+    <a>&ensp;/&ensp;铁皮文件柜系列&ensp;/&ensp;</a>
+    <span style="color: #777777;font-size: 15px">产品：HDW-B04对开玻办公文件柜</span>
+</div>
+<div style="margin-left: auto;margin-right: auto;width: 1180px;position: relative;top: -120px;margin-top: 120px">
+    <div class="fl-left">
+        <img style="width: 519px;height: 519px" src="furnimg/xxxx/20160830100538312.jpg">
+    </div>
+    <div class="fl-right">
+        <h3 style="letter-spacing: 3px">HDW-G02对开门更衣文件柜</h3>
+        <p>品牌&ensp;：&ensp;花都</p>
+        <p>颜色&ensp;：&ensp;亚光白</p>
+        <p>规格&ensp;：&ensp;1800mm*900mm*390mm</p>
+        <p>特点&ensp;：</p>
+        <ul>
+            <li>双开门铁皮更衣柜</li>
+            <li>文件更衣，多种功能</li>
+            <li>铝合金拉手，优质锁具</li>
+        </ul>
+        <p>浏览次数&ensp;：&ensp;<span>1495</span>次</p>
+        <p>发布日期&ensp;：&ensp;2018-8-28</p>
+        <button class="btn btn-default" onclick="overlay()"><img src="furnimg/icon/dh2.png">免费通话</button>
+        <button class="btn btn-danger" onclick="overlay2()"><img src="furnimg/icon/weixin.png">在线咨询</button>
+    </div>
+</div>
+<!--模态框-->
+<div id="modal-overlay">
+    <div class="modal-data">
+        <label>填写您的电话：</label>
+        <input style="height: 34px;border-radius: 4px;border: 1px solid #CCCCCC;padding-left: 10px;margin-right: 10px" type="text" placeholder="输入您的电话">
+        <button style="width: 70px;height: 36px;color: #FFFFFF;padding-left: 8px;padding-right: 8px" class="btn btn-primary">
+            <img style="width: 16px;height: 16px" src="furnimg/icon/dh.png">
+            回拨
+        </button>
+        <a onclick="overlay()"><img class="img-cl" src="furnimg/icon/close.png"></a>
+    </div>
+</div>
+<div id="modal-2">
+    <div class="modal-data2">
+        <h3>关注微信公众号</h3>
+        <img src="">
+        <a onclick="overlay2()"><img class="img-cl" src="furnimg/icon/close.png"></a>
+    </div>
+</div>
+<!--底部-->
+<div style="width: 100%;height: 440px;background-color: #1B1B1B">
+    <div style="margin-left: auto;margin-right: auto;width: 1180px;height: 415px">
+        <div class="top">
+            <div class="lele">
+                <div class="text">
+                    <p>
+                        花都
+                        <span style="letter-spacing:-1px; font-weight:600;">HUADU</span>
+                    </p>
+                    <a style="color: #FFFFFF;font-size: 19px;letter-spacing: 1px" href="#">www.lyhuadu.com</a>
+
+                    <p style="font-size:14px; padding-top:10px;letter-spacing:1px;  font-weight:normal; color:#ccc;">
+                        地址：中国·河南·洛阳市伊滨区花都国际园</p>
+                </div>
+                <div class="icons">
+                    <a href="javasript:void(0)" class="icon qq-call"><i class="fa fa-qq" aria-hidden="true"></i><img style="width: 30px;height: 30px;margin-bottom: 8px" src="furnimg/icon/QQ.png"></a>
+                    <a href="javascript:void(0)" class="icon weixin">
+                        <img style="width: 30px;height: 30px;margin-bottom: 7px" src="furnimg/icon/weixin.png">
+                    </a>
+                </div>
+            </div>
+            <div class="center">
+                <ul class="clearfix">
+                    <li class="center-left">
+                        <a style="color: #A0A0A0;" class="first">产品中心</a>
+                        <a href="#">文件柜系列</a>
+                        <a href="#">更衣柜系列</a>
+                        <a href="#">密集架系列</a>
+                        <a href="#">活动柜系列</a>
+                        <a href="#">保险柜系列</a>
+                    </li>
+                    <li class="center-center">
+                        <a style="color: #A0A0A0;" class="first">关于花都</a>
+                        <a href="#">关于花都</a>
+                        <a href="#">工厂实景</a>
+                        <a href="#">资质荣誉</a>
+                        <a href="#">人才招聘</a>
+                        <a href="#">代理合作</a>
+                    </li>
+                    <li class="center-right">
+                        <a style="color: #A0A0A0;" class="first">我们的客户</a>
+                        <a href="#">单位采购</a>
+                        <a href="#">招投标支持</a>
+                        <a href="#">OEM/ODM</a>
+                        <a href="#">外贸公司</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="right">
+                <p>联系我们</p>
+
+                <div class="m">
+                    <span class="big">400-6668-369</span>
+                    <span class="small">（8:00~21:00）</span>
+                </div>
+                <p class="phone2">158-9001-8766</p>
+
+                <div class="ba"><a id="ad"
+                                   style="color: #1B1B1B; padding-left: 12px;line-height: 27px;text-decoration: none"
+                                   href="#">在线客服</a></div>
+                <hr>
+                <div class="shop-link">
+                    <a class="sq-call" href="#"> 洛阳集团总部</a>
+                    <a class="sq-calllast" href="#"> 郑州销售中心</a>
+                </div>
+                <div class="shop-xia">
+                    <a class="sq-call" href="#"> 洛 阳 外 贸 部</a>
+                    <a class="sq-calllast" href="#"> 全国服务商</a>
+                </div>
+            </div>
+        </div>
+        <div class="last-version">
+            <p style="color:#A0A0A0;">Copyright @ 洛阳花都家具集团有限公司2017.All.Rights </p>
+
+            <p>
+                <a href="#">豫ICP备16009306号-1</a>
+            </p>
+        </div>
+    </div>
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/xxxx.js"></script>
+</body>
+</html>
